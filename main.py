@@ -4,7 +4,7 @@ from datetime import datetime
 import pandas as pd
 from db import create_db,insert_docs,fetch_docs,reports1,reports2
 
-# create_db()
+create_db()
 # st.write(fetch_docs())
 
 accounts = ["Rajanikant", "Praveena", "Chitrak", "Tushar", "Sweety", "Rajal", "Yatharth", "Monil"]
